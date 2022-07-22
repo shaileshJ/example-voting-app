@@ -6,7 +6,7 @@ services:
     ports:
       - mode: host
         target: 80
-        published: 5000
+        published: 5002
     deploy:
       endpoint_mode: dnsrr
     networks:
